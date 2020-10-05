@@ -82,3 +82,13 @@ header {
 .container span {
 	color: #ff4a4a;
 }
+
+footer {
+	background-color: rgba(21, 88, 181, 0.8);
+	padding: 20px 0;
+}
+
+.footer-logo img {
+	float: left;
+	height: 150px;
+}
