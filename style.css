@@ -16,8 +16,36 @@ header {
 	width: 100%;
 }
 
+.main-section {
+	padding: 100px 80px;
+}
+
+.main-section-item img {
+	float: right;
+	width: 32%;
+}
+	
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 800px;
 	padding: 0 10px;
 }
+
+.container h1 {
+	font-size: 100px;
+}
+
+.container h3 {
+	font-size: 60px;
+}
+
+.container p {
+	font-size: 30px;
+}
+
+.container span {
+	color: #ff4a4a;
+}
+
+
+
