@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	/* font-size:  1.2rem; */
+	/* font-weight: 400; */
+}
+
+header {
+	height: 65px;
+	line-height: 65px;
+	background-color: #1558B5;
+	color: #ffffff;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 10px;
+}
