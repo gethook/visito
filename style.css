@@ -85,10 +85,29 @@ header {
 
 footer {
 	background-color: rgba(21, 88, 181, 0.8);
-	padding: 20px 0;
+	padding-top: 20px;
+}
+
+.footer-wrap div{
+	float: left;
 }
 
 .footer-logo img {
-	float: left;
 	height: 150px;
+	background-color: white;
+}
+
+.visito-contact h3 {
+	color: black;
+	font-size: 20px;
+}
+
+.visito-contact p {
+	color: black;
+}
+
+.sidelink a {
+	display: block;
+	font-weight: bold;
+	color: black;
 }
