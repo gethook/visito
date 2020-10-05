@@ -8,12 +8,48 @@ html {
 	/* font-weight: 400; */
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	height: 65px;
 	line-height: 65px;
-	background-color: #1558B5;
+	background-color: rgba(21, 88, 181, 0.8);
 	color: #ffffff;
 	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+.header-logo img {
+	width: 124px;
+	float: left;
+	padding-top: 10px;
+	height: 55px;
+	background-color: white;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header-right {
+	float: right;
+	position: absolute;
+	left: 880px;
+}
+
+.header-right a {
+	color: white;
+	display: inline-block;
+	line-height: 65px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.header-right a:hover {
+	background-color: rgb(21, 88, 181)
 }
 
 .main-section {
@@ -24,7 +60,7 @@ header {
 	float: right;
 	width: 32%;
 }
-	
+
 .container {
 	width: 100%;
 	max-width: 800px;
@@ -46,6 +82,3 @@ header {
 .container span {
 	color: #ff4a4a;
 }
-
-
-
