@@ -15,8 +15,7 @@ a {
 header {
 	height: 65px;
 	line-height: 65px;
-	background-color: rgba(21, 88, 181, 0.8);
-	color: #ffffff;
+	background-color: rgba(21, 88, 181, 0.9);
 	width: 100%;
 	position: fixed;
 	z-index: 10;
@@ -28,10 +27,6 @@ header {
 	padding-top: 10px;
 	height: 55px;
 	background-color: white;
-	border: none;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .header-right {
@@ -49,7 +44,8 @@ header {
 }
 
 .header-right a:hover {
-	background-color: rgb(21, 88, 181)
+	background-color: rgb(21, 88, 181);
+	font-weight: bold;
 }
 
 .main-section {
@@ -84,30 +80,67 @@ header {
 }
 
 footer {
-	background-color: rgba(21, 88, 181, 0.8);
-	padding-top: 20px;
+	background-color: rgba(21, 88, 181, 0.9);
+	height: 165px;
 }
 
-.footer-wrap div{
+.footer-logo {
+	width: 15%;
 	float: left;
 }
 
+.visito-contact {
+	width: 65%;
+	float: left;
+}
+
+.foot-ref {
+	position: relative;
+}
+
+.sidelink {
+	width: 20%;
+	float: right;
+	position: absolute;
+	left: 1150px;
+}
+
 .footer-logo img {
-	height: 150px;
+	height: 165px;
 	background-color: white;
 }
 
 .visito-contact h3 {
-	color: black;
-	font-size: 20px;
+	color: white;
+	font-size: 22px;
+	margin: 10px 0;
 }
 
 .visito-contact p {
-	color: black;
+	color: white;
+	font-size: 14px;
+	margin-bottom: 3px;
 }
 
 .sidelink a {
 	display: block;
 	font-weight: bold;
+	color: white;
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.sidelink a:hover {
 	color: black;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(21, 88, 181, 0.9);
+	padding: 5px 0;
+	font-size: 10px;
+	color: white;
+	border-top: 2px solid white;
 }
