@@ -1,5 +1,13 @@
 * {
-	margin: 0;
+	box-sizing: border-box;
+}
+
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -52,9 +60,48 @@ header {
 	padding: 100px 80px;
 }
 
+.body{
+	width: 100%;
+}
+
 .main-section-item img {
 	float: right;
 	width: 32%;
+}
+
+.heading h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.destinations{
+	margin-bottom: 30px;
+}
+
+.destination{
+	margin-top: 30px;
+	width: 33.3%;
+	float: left;
+}
+
+.destination-item{
+	position: relative;
+	margin-left: 50px;
+}
+
+.destination-item p {
+	position: absolute;
+	left: 35%;
+	top: 44%;
+	color: white;
+}
+
+.destination-item img{
+	border-radius: 30px;
+	width: 350px;
+	height: 250px;
+	margin-bottom: 30px;
 }
 
 .container {
@@ -82,6 +129,7 @@ header {
 footer {
 	background-color: rgba(21, 88, 181, 0.9);
 	height: 165px;
+	clear: both;
 }
 
 .footer-logo {
