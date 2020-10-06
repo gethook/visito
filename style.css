@@ -3,17 +3,66 @@
 	box-sizing: border-box;
 }
 
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
 html {
 	font-family: 'Open Sans', sans-serif;
 	/* font-size:  1.2rem; */
 	/* font-weight: 400; */
+	color: #3f4557;
+}
+
+a {
+	text-decoration: none;
 }
 
 header {
 	height: 65px;
 	line-height: 65px;
-	background-color: #1558B5;
-	color: #ffffff;
+	background-color: rgba(21, 88, 181, 0.9);
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+.header-logo img {
+	width: 124px;
+	float: left;
+	padding-top: 10px;
+	height: 65px;
+	background-color: white;
+}
+
+.header-right {
+	float: right;
+	/* position: absolute; */
+	/* left: 880px; */
+}
+
+.header-right a {
+	color: white;
+	display: inline-block;
+	line-height: 65px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.header-right a:hover {
+	background-color: rgb(21, 88, 181);
+	font-weight: bold;
+}
+
+.main-section {
+	padding: 100px 0;
+}
+
+.body{
 	width: 100%;
 }
 
@@ -21,10 +70,110 @@ img	{
 	max-width: 100%;
 }
 
+/* .main-section-item img {
+	float: right;
+	width: 32%;
+}
+ */
+
+ .main-left {
+ 	float: left;
+ 	width: 70%;
+ }
+
+ .main-right {
+ 	float: left;
+ 	width: 30%;
+ }
+
+ .main-right img {
+ 	/* width: 80%; */
+ }
+
+.heading h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.destinations{
+	margin-bottom: 30px;
+
+}
+
+.destination{
+	margin-top: 30px;
+	width: 33.3%;
+	float: left;
+}
+
+.destination-item{
+	position: relative;
+	/* margin-left: 50px; */
+	margin: 0 25px;
+}
+
+.destination-item p {
+	position: absolute;
+	/* left: 34%;
+	top: 44%; */
+	left: 50%;
+	top: 44%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.destination-item img{
+	border-radius: 30px;
+	width: 350px;
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+.destination-item img:hover{
+	box-shadow: 20px 20px 10px rgba(105, 97, 218, 0.8);
+	cursor: pointer;
+}
+
+.btn {
+	padding: 12px 24px;
+	color: #fff;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.button{
+	/* margin-left: 598px; */
+	text-align: center;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.message {
+	padding: 10px 35px;
+	background-color: #2427d4;
+	cursor: pointer;
+	box-shadow: 0 7px #310ead;
+}
+
+.message:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+
 .container {
 	width: 100%;
 	max-width: 1200px;
-	padding: 0 10px;
+	padding: 0 17px;
 	margin: 0 auto;
 }
 
@@ -36,6 +185,7 @@ img	{
 
 .section-heading h3 {
 	font-weight: normal;
+	font-size: 20px;
 }
 
 .partner-section img {
@@ -60,7 +210,7 @@ img	{
 	clear: left;
 }
 
-.contact {
+.contact, .destination-section {
 	padding: 50px 0 25px 0;
 	background-color: #eff0f4;
 }
@@ -111,7 +261,8 @@ input, textarea {
 }
 
 .btn-contact {
-	background-color: #1558B5;
+	/* background-color: #1558B5; */
+	background-color: #FF6708;
 	color: #ffffff;
 	padding: 10px 30px;
 	margin: 10px 0 20px 0;
@@ -133,4 +284,91 @@ input, textarea {
 	position: relative;
 	top: 5px;
 	box-shadow: none;
+}
+
+.main-section h1 {
+	font-size: 100px;
+}
+
+.main-section h3 {
+	font-size: 60px;
+}
+
+.main-section p {
+	font-size: 20px;
+}
+
+.main-section span {
+	/* color: #ff4a4a; */
+	color: #FF6708;
+}
+
+footer {
+	background-color: rgba(21, 88, 181, 0.9);
+	height: 165px;
+	clear: both;
+}
+
+.footer-logo {
+	width: 10%;
+	float: left;
+}
+
+.visito-contact {
+	width: 70%;
+	float: left;
+	padding: 0 0 0 15px;
+}
+
+.foot-ref {
+	position: relative;
+}
+
+.sidelink {
+	width: 20%;
+	float: right;
+	/* position: absolute; */
+	/* left: 1040px; */
+}
+
+.footer-logo img {
+	height: 165px;
+	background-color: white;
+	width: 100%;
+}
+
+.visito-contact h3 {
+	color: white;
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+.visito-contact p {
+	color: white;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.sidelink a {
+	display: block;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding: 0 10px;
+}
+
+.sidelink a:hover {
+	color: black;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(21, 88, 181, 0.9);
+	padding: 5px 0;
+	font-size: 10px;
+	color: white;
+	border-top: 2px solid white;
 }

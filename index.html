@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,51 +9,84 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="responsive.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
+
 <body>
 	<header>
 		<div class="container">
 			<div class="header-left">
-				<p>VISITO</p>
+				<div class="header-logo">
+					<img src="https://i.ibb.co/606nDd5/visito-logo.png">
+				</div>
+			</div>
+			<div class="header-right">
+				<a href="#">DEALS TODAY</a>
+				<a href="#">HOLIDAY PLANNING</a>
+				<a href="#">THEMATIC TRIP</a>
 			</div>
 		</div>
 	</header>
 	<div class="main-section">
 		<div class="container">
-			<h1>Get stuck ?</h1>
-			<h3>Take a break with our selected destination place.</h3>
-			<p>No need to plan the trip <span>by yourself.</span></p>
-			<p>Tell us your plan, let us arrange, relax and <span>enjoy it.</span></p>
+			<div class="main-left">
+				<h1>Get stuck?</h1>
+				<h3>Take a break with our selected destination place.</h3>
+				<p>No need to plan the trip <span>by yourself</span>.</p>
+				<p>Tell us your plan, let us arrange, relax and <span>enjoy it</span>.</p>
+			</div>
+			<div class="main-right">
+				<img src="https://i.ibb.co/phBC1rp/tourist.png">
+			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="destination-section">
 		<div class="container">
-			<h3>POPULAR DESTINATION</h3>
+			<div class="heading">
+				<h2>POPULAR DESTINATION</h2>
+			</div>
 			<div class="destinations">
-				<div class="destination-item">
-					<img src="https://i.ibb.co/TR1hxxN/bali.jpg" alt="bali">
-					<p>BALI</p>
+				<div class="destination">
+					<div class="destination-item">
+						<img src="https://i.ibb.co/TR1hxxN/bali.jpg" alt="bali">
+						<p>BALI</p>
+					</div>
 				</div>
-				<div class="destination-item">
-					<img src="https://i.ibb.co/7r0LFjS/bromo.jpg" alt="bromo">
-					<p>BROMO</p>
+				<div class="destination">
+					<div class="destination-item">
+						<img src="https://i.ibb.co/7r0LFjS/bromo.jpg" alt="bromo">
+						<p>BROMO</p>
+					</div>
 				</div>
-				<div class="destination-item">
-					<img src="https://i.ibb.co/WHG2Dj3/rajaampat.jpg" alt="rajaampat">
-					<p>RAJA AMPAT</p>
+				<div class="destination">
+					<div class="destination-item">
+						<img src="https://i.ibb.co/WHG2Dj3/rajaampat.jpg" alt="rajaampat">
+						<p>RAJA AMPAT</p>
+					</div>
 				</div>
-				<div class="destination-item">
-					<img src="https://i.ibb.co/FhdkPcJ/labuanbajo.jpg" alt="labuanbajo">
-					<p>LABUAN BAJO</p>
+				<div class="destination">
+					<div class="destination-item">
+						<img src="https://i.ibb.co/FhdkPcJ/labuanbajo.jpg" alt="labuanbajo">
+						<p>LABUAN BAJO</p>
+					</div>
 				</div>
-				<div class="destination-item">
-					<img src="https://i.ibb.co/5jk9yV8/rinjani.jpg" alt="rinjani" >
-					<p>RINJANI</p>
+				<div class="destination">
+					<div class="destination-item">
+						<img src="https://i.ibb.co/5jk9yV8/rinjani.jpg" alt="rinjani">
+						<p>RINJANI</p>
+					</div>
 				</div>
-				<div class="destination-item">
-					<img src="https://i.ibb.co/ThZ8HRw/lombok.jpg" alt="lombok" >
-					<p>LOMBOK</p>
+				<div class="destination">
+					<div class="destination-item">
+						<img src="https://i.ibb.co/ThZ8HRw/lombok.jpg" alt="lombok">
+						<p>LOMBOK</p>
+					</div>
 				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="button">
+				<span class="btn message">View All</span>
 			</div>
 		</div>
 	</div>
@@ -60,13 +94,13 @@
 		<div class="container">
 			<div class="partners">
 				<div class="section-heading">
-					<h3>Our partners trip</h3>
+					<h3 id="partner-heading">Our partners trip</h3>
 				</div>
 				<img src="https://i.ibb.co/VYMTLQh/maskapai.png" alt="maskapai">
 			</div>
 			<div class="partners associations">
 				<div class="section-heading">
-					<h3>In association with</h3>
+					<h3 id="association-heading">In association with</h3>
 				</div>
 				<img src="https://i.ibb.co/SXPxcnZ/kemenpar.png" alt="kemenpar">
 				<img src="https://i.ibb.co/6ZRrQ1Y/wonderful-indo.png" alt="wonderful-indonesia">
@@ -104,7 +138,29 @@
 		</div>
 	</div>
 	<footer>
-		<div class="container"></div>
+		<div class="container foot-ref">
+			<div class="footer-logo">
+				<img src="https://i.ibb.co/8P481Dr/visito-vertical.png">
+			</div>
+			<div class="visito-contact">
+				<h3>PT. VISITO INDONESIA</h3>
+				<p>Jl. In Aja Dulu, Visito tower, Jakarta Selatan, 12345</p>
+				<p>+62 21 1234 5678</p>
+				<p>+62 811 1234 5678 (WhatsApp Only)</p>
+				<p>info@visitoindonesia.com</p>
+				<p>Monday-Friday (09:00-17:00 WIB)</p>
+			</div>
+			<div class="sidelink">
+				<a href="#">Home</a>
+				<a href="#">About us</a>
+				<a href="#">Terms and Cons</a>
+				<a href="#">Privacy Policy</a>
+			</div>
+		</div>
 	</footer>
+	<div class="copyright">
+		<p>Work by CE-7 Group 22 | Akhmad S., A.Ridho, Alexander L., Fahmi A.R.</p>
+	</div>
 </body>
+
 </html>

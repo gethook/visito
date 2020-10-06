@@ -1,5 +1,5 @@
 @media (max-width: 1000px) {
-	.contact-form {
+	.contact-form, .contact > .container > p {
 		position: static;
 		width: 70%;
 		margin: 0 auto;
@@ -27,7 +27,7 @@
 }
 
 @media all and (max-width: 670px) {
-	.contact-form {
+	.contact-form, .contact > .container > p {
 		width: 100%;
 	}
 
