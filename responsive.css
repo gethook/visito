@@ -24,6 +24,11 @@
 		width: 50%;
 		padding: 20px;
 	}
+
+	.sidelink a {
+		margin-bottom: 3px;
+		font-size: 14px;
+	}
 }
 
 @media all and (max-width: 670px) {
@@ -34,4 +39,51 @@
 	.col-33, .col-66, .btn-contact {
 		width: 100%
 	}
+
+	.header-right {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+		opacity: 1;
+	}
+
+footer {
+	height: 120px;
+	text-align: center;
+}
+
+	.footer-logo {
+		display: none;
+	}
+
+	.visito-contact, .sidelink {
+		width: 100%;
+		float: none;
+	}
+
+	.visito-contact h3 {
+		font-size: 12px;
+		margin: 5px 0;
+	}
+
+	.visito-contact p {
+		font-size: 9px;
+		margin-bottom: 1px;
+	}
+
+	.sidelink a {
+		font-size: 9px;
+		display: inline-block;
+		padding: 0;
+		margin: 0 7px;
+	}
+
+	.copyright {
+		width: 100%;
+		padding: 3px 0;
+		font-size: 8px;
+	}
+
 }

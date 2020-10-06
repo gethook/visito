@@ -45,6 +45,14 @@ header {
 	/* left: 880px; */
 }
 
+.menu-icon {
+	display: none;
+	float: right;
+	color: white;
+	opacity: 0;
+  padding: 23px 0;
+}
+
 .header-right a {
 	color: white;
 	display: inline-block;
