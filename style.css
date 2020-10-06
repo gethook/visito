@@ -33,7 +33,7 @@ header {
 	width: 124px;
 	float: left;
 	padding-top: 10px;
-	height: 55px;
+	height: 65px;
 	background-color: white;
 }
 
@@ -124,7 +124,7 @@ header {
   .button{
 	  margin-left: 598px;
   }
-  
+
   .btn:hover {
 	opacity: 1;
   }
@@ -135,13 +135,13 @@ header {
 	cursor: pointer;
 	box-shadow: 0 7px #310ead;
   }
-  
+
   .message:active {
 	position: relative;
 	top: 7px;
 	box-shadow: none;
   }
-  
+
 
 .container {
 	width: 100%;
@@ -171,12 +171,12 @@ footer {
 }
 
 .footer-logo {
-	width: 15%;
+	width: 10%;
 	float: left;
 }
 
 .visito-contact {
-	width: 65%;
+	width: 70%;
 	float: left;
 }
 
@@ -188,7 +188,7 @@ footer {
 	width: 20%;
 	float: right;
 	position: absolute;
-	left: 1150px;
+	left: 1040px;
 }
 
 .footer-logo img {
