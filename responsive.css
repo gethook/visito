@@ -29,6 +29,40 @@
 		margin-bottom: 3px;
 		font-size: 14px;
 	}
+
+	.main-section {
+        padding: 80px 0;
+    }
+    
+    .main-left {
+         float: left;
+         width: 50%;
+    }
+    
+    .main-right {
+         float: right;
+         width: 50%;
+    }
+    
+    .main-right img {
+         width: 60%;
+    }
+    
+    .main-section h1 {
+        font-size: 60px;
+    }
+    
+    .main-section h3 {
+        font-size: 40px;
+    }
+    
+    .main-section p {
+        font-size: 10px;
+    }
+    
+    .main-section span {
+        color: #FF6708;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -85,5 +119,40 @@ footer {
 		padding: 3px 0;
 		font-size: 8px;
 	}
+
+	.main-section {
+        padding: 80px 0;
+    }
+    
+    .main-left {
+         float: left;
+         width: 55%;
+    }
+    
+    .main-right {
+         float: right;
+         width: 40%;
+    }
+    
+    .main-right img {
+         width: 80%;
+    }
+    
+    .main-section h1 {
+        font-size: 20px;
+    }
+    
+    .main-section h3 {
+        font-size: 15px;
+    }
+    
+    .main-section p {
+        font-size: 10px;
+    }
+    
+    .main-section span {
+        color: #FF6708;
+    }
+
 
 }
