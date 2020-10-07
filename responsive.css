@@ -62,7 +62,12 @@
     
     .main-section span {
         color: #FF6708;
-    }
+	}
+	
+	.destination{
+		width: 50%;
+    margin-bottom: 50px;
+	}
 }
 
 @media all and (max-width: 670px) {
@@ -81,6 +86,10 @@
 	.menu-icon {
 		display: block;
 		opacity: 1;
+	}
+
+	.destination{
+		width: 100%;
 	}
 
 footer {
